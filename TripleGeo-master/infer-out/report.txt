@@ -1,0 +1,12 @@
+#0
+src/eu/geoknow/athenarc/triplegeo/utils/Configuration.java:76: error: Resource Leak
+  resource of type `java.io.FileInputStream` acquired by call to `FileInputStream(...)` at line 76 is not released after line 76.
+  74.       Properties properties = new Properties();
+  75.       try {
+  76. >       properties.load(new FileInputStream(path));
+  77.       } catch (IOException io) {
+  78.         LOG.log(Level.WARNING, "Problems loading configuration file: {0}", io);
+
+Found 1 issue
+    Issue Type(ISSUED_TYPE_ID): #
+  Resource Leak(RESOURCE_LEAK): 1

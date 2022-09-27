@@ -1,0 +1,210 @@
+[86836][      debug] Loading models took 27.372ms
+[86839][      debug] Sqlite write daemon: starting up
+[86839][      debug] Sqlite write daemon: set up complete, waiting for connections
+[86836][environment] CWD = /Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/json-simple-master
+[86836][environment] No .inferconfig file found
+[86836][environment] Project root = /Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/json-simple-master
+[86836][environment] INFER_ARGS =   @/var/folders/8x/lls1w4m94l90p8qszpnrvzgw0000gp/T/args.tmp.ea8e14
+[86836][environment] command line arguments:   infer run -- mvn clean install
+[86836][environment] Could not retrieve available memory (possibly not on Linux)
+[86836][environment] Active checkers: self-in-block (C/C++/ObjC), starvation (C/C++/ObjC, Java), uninit (C/C++/ObjC), siof (C/C++/ObjC), dotnet-resource-leak (C#/.Net), racerd (C/C++/ObjC, Java), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java), biabduction (C/C++/ObjC, Java, C#/.Net)
+[86836][environment] Scheduler: file
+[86836][environment] Cores used: 2
+[86836][environment] Infer version v1.1.0
+[86836][environment] Copyright 2009 - present Facebook. All Rights Reserved.
+[86836][environment] 
+[86836][   progress] Capturing in maven mode...
+[86836][      debug] Running maven capture:
+[86836][      debug] mvn 'clean' 'install' '-P' 'infer-capture'
+
+[86870][environment] CWD = /Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/json-simple-master
+[86870][environment] No .inferconfig file found
+[86870][environment] Project root = /Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/json-simple-master
+[86870][environment] INFER_ARGS =   @/var/folders/8x/lls1w4m94l90p8qszpnrvzgw0000gp/T/args.tmp.a3c799
+[86870][environment] command line arguments:   /usr/local/Cellar/infer/1.1.0_1/lib/infer/infer/bin/infer
+[86870][environment]                           @/private/var/folders/8x/lls1w4m94l90p8qszpnrvzgw0000gp/T/org.codehaus.plexus.compiler.javac.JavacCompiler3526539673415006839arguments
+[86870][environment] Could not retrieve available memory (possibly not on Linux)
+[86870][environment] Active checkers: self-in-block (C/C++/ObjC), starvation (C/C++/ObjC, Java), uninit (C/C++/ObjC), siof (C/C++/ObjC), dotnet-resource-leak (C#/.Net), racerd (C/C++/ObjC, Java), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java), biabduction (C/C++/ObjC, Java, C#/.Net)
+[86870][      debug] Current working directory: '/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/json-simple-master'
+[86870][      debug] Trying to execute: javac '-J-Duser.language=en' '@/private/var/folders/8x/lls1w4m94l90p8qszpnrvzgw0000gp/T/org.codehaus.plexus.compiler.javac.JavacCompiler3526539673415006839arguments' '@/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/json-simple-master/infer-out/tmp/javac_args.tmp.7fabee' 2>'/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/json-simple-master/infer-out/tmp/javac.tmp.5ea5fe.out'
+[86870][      debug] *** Success. Logs:
+[86870][      debug] Translating 12 source files (12 classes)
+[86870][      debug] done capturing all files
+[86870][      debug] GC stats for capture:
+[86870][      debug]   minor_words: 1.04316e+07
+[86870][      debug]   promoted_words: 967847
+[86870][      debug]   major_words: 1.09004e+06
+[86870][      debug]   minor_collections: 22
+[86870][      debug]   major_collections: 3
+[86870][      debug]   compactions: 0
+[86870][      debug]   top_heap_words: 1157632
+[86870][      debug]   
+[86870][      debug] GC stats for main_process_full:
+[86870][      debug]   minor_words: 1.19909e+07
+[86870][      debug]   promoted_words: 1.13103e+06
+[86870][      debug]   major_words: 1.27484e+06
+[86870][      debug]   minor_collections: 32
+[86870][      debug]   major_collections: 6
+[86870][      debug]   compactions: 1
+[86870][      debug]   top_heap_words: 1157632
+[86870][      debug]   
+[86870][environment] Scheduler: file
+[86870][environment] Cores used: 2
+[86870][environment] 
+[86874][environment] CWD = /Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/json-simple-master
+[86874][environment] No .inferconfig file found
+[86874][environment] Project root = /Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/json-simple-master
+[86874][environment] INFER_ARGS =   @/var/folders/8x/lls1w4m94l90p8qszpnrvzgw0000gp/T/args.tmp.395b3c
+[86874][environment] command line arguments:   /usr/local/Cellar/infer/1.1.0_1/lib/infer/infer/bin/infer
+[86874][environment]                           @/private/var/folders/8x/lls1w4m94l90p8qszpnrvzgw0000gp/T/org.codehaus.plexus.compiler.javac.JavacCompiler1556271056201576521arguments
+[86874][environment] Could not retrieve available memory (possibly not on Linux)
+[86874][environment] Active checkers: self-in-block (C/C++/ObjC), starvation (C/C++/ObjC, Java), uninit (C/C++/ObjC), siof (C/C++/ObjC), dotnet-resource-leak (C#/.Net), racerd (C/C++/ObjC, Java), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java), biabduction (C/C++/ObjC, Java, C#/.Net)
+[86874][      debug] Current working directory: '/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/json-simple-master'
+[86874][      debug] Trying to execute: javac '-J-Duser.language=en' '@/private/var/folders/8x/lls1w4m94l90p8qszpnrvzgw0000gp/T/org.codehaus.plexus.compiler.javac.JavacCompiler1556271056201576521arguments' '@/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/json-simple-master/infer-out/tmp/javac_args.tmp.fc7bb1' 2>'/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/json-simple-master/infer-out/tmp/javac.tmp.99b6bd.out'
+[86874][      debug] *** Success. Logs:
+[86874][      debug] Translating 4 source files (7 classes)
+[86874][      debug] done capturing all files
+[86874][      debug] GC stats for capture:
+[86874][      debug]   minor_words: 6.68946e+06
+[86874][      debug]   promoted_words: 861089
+[86874][      debug]   major_words: 974030
+[86874][      debug]   minor_collections: 17
+[86874][      debug]   major_collections: 2
+[86874][      debug]   compactions: 0
+[86874][      debug]   top_heap_words: 1157632
+[86874][      debug]   
+[86874][      debug] GC stats for main_process_full:
+[86874][      debug]   minor_words: 8.24844e+06
+[86874][      debug]   promoted_words: 1.02427e+06
+[86874][      debug]   major_words: 1.15882e+06
+[86874][      debug]   minor_collections: 27
+[86874][      debug]   major_collections: 5
+[86874][      debug]   compactions: 1
+[86874][      debug]   top_heap_words: 1157632
+[86874][      debug]   
+[86874][environment] Scheduler: file
+[86874][environment] Cores used: 2
+[86874][environment] [86836][      debug] GC stats for capture:
+[86836][      debug]   minor_words: 20124
+[86836][      debug]   promoted_words: 0
+[86836][      debug]   major_words: 0
+[86836][      debug]   minor_collections: 0
+[86836][      debug]   major_collections: 0
+[86836][      debug]   compactions: 0
+[86836][      debug]   top_heap_words: 760832
+[86836][      debug]   
+[86836][environment] Parallel jobs: 2
+[86836][   progress] Found 16 source files to analyze in /Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/json-simple-master/infer-out
+[86888][   progress] src/test/java/org/json/simple/Test.java starting
+[86889][   progress] src/main/java/org/json/simple/JSONValue.java starting
+[86889][   progress] src/main/java/org/json/simple/JSONValue.java DONE
+[86889][   progress] src/main/java/org/json/simple/JSONArray.java starting
+[86889][   progress] src/main/java/org/json/simple/JSONArray.java DONE
+[86889][   progress] src/main/java/org/json/simple/parser/ContentHandler.java starting
+[86889][   progress] src/main/java/org/json/simple/parser/ContentHandler.java DONE
+[86889][   progress] src/main/java/org/json/simple/parser/Yytoken.java starting
+[86889][   progress] src/main/java/org/json/simple/parser/Yytoken.java DONE
+[86889][   progress] src/main/java/org/json/simple/parser/ContainerFactory.java starting
+[86889][   progress] src/main/java/org/json/simple/parser/ContainerFactory.java DONE
+[86889][   progress] src/main/java/org/json/simple/JSONStreamAware.java starting
+[86889][   progress] src/main/java/org/json/simple/JSONStreamAware.java DONE
+[86889][   progress] src/test/java/org/json/simple/JSONValueTest.java starting
+[86889][   progress] src/test/java/org/json/simple/JSONValueTest.java DONE
+[86889][   progress] src/main/java/org/json/simple/parser/ParseException.java starting
+[86889][   progress] src/main/java/org/json/simple/parser/ParseException.java DONE
+[86889][   progress] src/main/java/org/json/simple/parser/JSONParser.java starting
+[86889][   progress] src/main/java/org/json/simple/parser/JSONParser.java DONE
+[86889][   progress] src/main/java/org/json/simple/JSONObject.java starting
+[86888][   progress] src/test/java/org/json/simple/Test.java DONE
+[86888][   progress] src/test/java/org/json/simple/JSONArrayTest.java starting
+[86889][   progress] src/main/java/org/json/simple/JSONObject.java DONE
+[86889][   progress] src/main/java/org/json/simple/parser/Yylex.java starting
+[86889][   progress] src/main/java/org/json/simple/parser/Yylex.java DONE
+[86889][   progress] src/main/java/org/json/simple/JSONAware.java starting
+[86889][   progress] src/main/java/org/json/simple/JSONAware.java DONE
+[86889][   progress] src/test/java/org/json/simple/parser/YylexTest.java starting
+[86889][   progress] src/test/java/org/json/simple/parser/YylexTest.java DONE
+[86889][   progress] src/main/java/org/json/simple/ItemList.java starting
+[86888][   progress] src/test/java/org/json/simple/JSONArrayTest.java DONE
+[86889][   progress] src/main/java/org/json/simple/ItemList.java DONE
+[86836][      debug] Backend stats:
+[86836][      debug]   summary_file_try_load= 8495
+[86836][      debug]   summary_read_from_disk= 110
+[86836][      debug]   summary_cache_hits= 10268 (54%)
+[86836][      debug]   summary_cache_misses= 8495
+[86836][      debug]   ondemand_procs_analyzed= 245
+[86836][      debug]   ondemand_local_cache_hits= 8730 (94%)
+[86836][      debug]   ondemand_local_cache_misses= 498
+[86836][      debug]   proc_locker_lock_time_user= 0.00000000
+[86836][      debug]   proc_locker_lock_time_sys= 0.00000000
+[86836][      debug]   proc_locker_lock_time_wall= 0.00000000
+[86836][      debug]   proc_locker_unlock_time_user= 0.00000000
+[86836][      debug]   proc_locker_unlock_time_sys= 0.00000000
+[86836][      debug]   proc_locker_unlock_time_wall= 0.00000000
+[86836][      debug]   restart_scheduler_useful_time_user= 0.00000000
+[86836][      debug]   restart_scheduler_useful_time_sys= 0.00000000
+[86836][      debug]   restart_scheduler_useful_time_wall= 0.00000000
+[86836][      debug]   restart_scheduler_total_time_user= 0.00000000
+[86836][      debug]   restart_scheduler_total_time_sys= 0.00000000
+[86836][      debug]   restart_scheduler_total_time_wall= 0.00000000
+[86836][      debug]   
+[86836][      debug] GC stats for backend_stats.gc_stats_add.:
+[86836][      debug]   minor_words: 7.43912e+09
+[86836][      debug]   promoted_words: 3.31674e+07
+[86836][      debug]   major_words: 3.95734e+07
+[86836][      debug]   minor_collections: 7129
+[86836][      debug]   major_collections: 81
+[86836][      debug]   compactions: 0
+[86836][      debug]   top_heap_words: 5763072
+[86836][      debug]   
+[86836][      debug] GC stats for backend_stats.gc_stats_max.:
+[86836][      debug]   minor_words: 3.78475e+09
+[86836][      debug]   promoted_words: 1.72483e+07
+[86836][      debug]   major_words: 2.00614e+07
+[86836][      debug]   minor_collections: 3627
+[86836][      debug]   major_collections: 41
+[86836][      debug]   compactions: 0
+[86836][      debug]   top_heap_words: 3082752
+[86836][      debug]   
+[86836][      debug] Average over 2 processes
+[86836][      debug] GC stats for backend_stats.gc_stats_average.:
+[86836][      debug]   minor_words: 3.71956e+09
+[86836][      debug]   promoted_words: 1.65837e+07
+[86836][      debug]   major_words: 1.97867e+07
+[86836][      debug]   minor_collections: 3564
+[86836][      debug]   major_collections: 40
+[86836][      debug]   compactions: 0
+[86836][      debug]   top_heap_words: 2881536
+[86836][      debug]   
+[86836][      debug] Analysis phase finished in 10.662s
+[86836][      debug] backend_stats.scheduler_process_analysis_time_user= 0.09228000
+[86836][      debug] backend_stats.scheduler_process_analysis_time_sys= 0.05308400
+[86836][      debug] backend_stats.scheduler_process_analysis_time_wall= 10.66150961
+[86836][      debug] GC stats for analysis_scheduler:
+[86836][      debug]   minor_words: 1.01509e+07
+[86836][      debug]   promoted_words: 225854
+[86836][      debug]   major_words: 234560
+[86836][      debug]   minor_collections: 12
+[86836][      debug]   major_collections: 4
+[86836][      debug]   compactions: 1
+[86836][      debug]   top_heap_words: 1006592
+[86836][      debug]   
+[86836][      debug] GC stats for report:
+[86836][      debug]   minor_words: 41585
+[86836][      debug]   promoted_words: 0
+[86836][      debug]   major_words: 0
+[86836][      debug]   minor_collections: 0
+[86836][      debug]   major_collections: 0
+[86836][      debug]   compactions: 0
+[86836][      debug]   top_heap_words: 1006592
+[86836][      debug]   
+[86836][      debug] GC stats for main_process_full:
+[86836][      debug]   minor_words: 1.20469e+07
+[86836][      debug]   promoted_words: 388911
+[86836][      debug]   major_words: 962134
+[86836][      debug]   minor_collections: 22
+[86836][      debug]   major_collections: 7
+[86836][      debug]   compactions: 2
+[86836][      debug]   top_heap_words: 1006592
+[86836][      debug]   
+[86839][      debug] Sqlite write daemon: terminating

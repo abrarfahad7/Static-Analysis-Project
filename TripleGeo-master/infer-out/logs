@@ -1,0 +1,213 @@
+[84487][      debug] Loading models took 26.927ms
+[84491][      debug] Sqlite write daemon: starting up
+[84491][      debug] Sqlite write daemon: set up complete, waiting for connections
+[84487][environment] CWD = /Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master
+[84487][environment] No .inferconfig file found
+[84487][environment] Project root = /Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master
+[84487][environment] INFER_ARGS =   @/var/folders/8x/lls1w4m94l90p8qszpnrvzgw0000gp/T/args.tmp.2529a7
+[84487][environment] command line arguments:   infer run -- ant clean compile
+[84487][environment] Could not retrieve available memory (possibly not on Linux)
+[84487][environment] Active checkers: self-in-block (C/C++/ObjC), starvation (C/C++/ObjC, Java), uninit (C/C++/ObjC), siof (C/C++/ObjC), dotnet-resource-leak (C#/.Net), racerd (C/C++/ObjC, Java), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java), biabduction (C/C++/ObjC, Java, C#/.Net)
+[84487][environment] Scheduler: file
+[84487][environment] Cores used: 2
+[84487][environment] Infer version v1.1.0
+[84487][environment] Copyright 2009 - present Facebook. All Rights Reserved.
+[84487][environment] 
+[84487][   progress] Capturing in ant mode...
+[84487][   progress] javac-stderr: javac 15
+[84487][environment] java version "15" 2020-09-15
+Java(TM) SE Runtime Environment (build 15+36-1562)
+Java HotSpot(TM) 64-Bit Server VM (build 15+36-1562, mixed mode, sharing)
+  Apache Ant(TM) version 1.10.11 compiled on July 10 2021
+
+[84487][environment] 
+[84487][      debug] ant   clean compile
+
+[84546][environment] CWD = /Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master
+[84546][environment] No .inferconfig file found
+[84546][environment] Project root = /Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master
+[84546][environment] INFER_ARGS =   @/var/folders/8x/lls1w4m94l90p8qszpnrvzgw0000gp/T/args.tmp.ff65e2
+[84546][environment] command line arguments:   /usr/local/Cellar/infer/1.1.0_1/lib/infer/infer/bin/infer
+[84546][environment]                           capture --continue -- javac -d
+[84546][environment]                           /Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/build/classes
+[84546][environment]                           -classpath
+[84546][environment]                           /Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/build/classes:/Library/Java/JavaVirtualMachines/jdk-15.jdk/Contents/Home/lib/jrt-fs.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/ant-optional-1.5.1.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/arq-2.8.4.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/arq-2.8.5-sources.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/arq-2.8.5-test-sources.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/arq-2.8.5-tests.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/arq-2.8.5.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/avalon-framework-api-4.3.1.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/avalon-framework-impl-4.3.1.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/batik-anim-1.7.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/batik-awt-util-1.7.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/batik-bridge-1.7.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/batik-css-1.7.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/batik-dom-1.7.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/batik-ext-1.7.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/batik-gvt-1.7.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/batik-parser-1.7.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/batik-script-1.7.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/batik-svg-dom-1.7.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/batik-svggen-1.7.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/batik-transcoder-1.7.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/batik-util-1.7.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/batik-xml-1.7.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/common-2.2.1.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/commons-beanutils-1.7.0.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/commons-codec-1.2.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/commons-collections-3.1.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/commons-dbcp-1.2.2.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/commons-httpclient-3.1.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/commons-io-1.2.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/commons-io-1.4.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/commons-jxpath-1.2.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/commons-lang-2.3.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/commons-logging-1.1.1.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/commons-pool-1.5.3.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/eastwood-1.1.1-SNAPSHOT.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/ecore-2.2.2.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/fop-0.94.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/geoapi-2.3-M1.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/geoapi-pending-2.3-M1.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/geodb-0.3.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/gt-api-2.7-M0.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/gt-arcgrid-2.7-M0.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/gt-arcsde-2.7-M0.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/gt-arcsde-common-2.7-M0.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/gt-brewer-2.7-M0.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/gt-charts-2.7-M0.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/gt-coverage-2.7-M0.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/gt-cql-2.7-M0.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/gt-data-2.7-M0.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/gt-db2-2.7-M0.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/gt-directory-2.7-M0.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/gt-epsg-extension-2.7-M0.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/gt-epsg-hsql-2.7-M0.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/gt-epsg-postgresql-2.7-M0.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/gt-epsg-wkt-2.7-M0.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/gt-feature-pregeneralized-2.7-M0.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/gt-geojson-2.7-M0.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/gt-geotiff-2.7-M0.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/gt-graph-2.7-M0.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/gt-gtopo30-2.7-M0.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/gt-image-2.7-M0.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/gt-imageio-ext-gdal-2.7-M0.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/gt-imagemosaic-2.7-M0.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/gt-imagemosaic-jdbc-2.7-M0.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/gt-imagepyramid-2.7-M0.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/gt-jdbc-2.7-M0.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/gt-jdbc-db2-2.7-M0.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/gt-jdbc-h2-2.7-M0.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/gt-jdbc-mysql-2.7-M0.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/gt-jdbc-oracle-2.7-M0.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/gt-jdbc-postgis-2.7-M0.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/gt-jdbc-spatialite-2.7-M0.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/gt-jdbc-sqlserver-2.7-M0.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/gt-jp2k-2.7-M0.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/gt-main-2.7-M0.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/gt-metadata-2.7-M0.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/gt-postgis-2.7-M0.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/gt-property-2.7-M0.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/gt-referencing-2.7-M0.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/gt-referencing3D-2.7-M0.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/gt-render-2.7-M0.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/gt-sample-data-2.7-M0.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/gt-shapefile-2.7-M0.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/gt-svg-2.7-M0.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/gt-swing-2.7-M0.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/gt-temporal-2.7-M0.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/gt-validation-2.7-M0.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/gt-wfs-2.7-M0.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/gt-wms-2.7-M0.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/gt-xml-2.7-M0.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/gt-xsd-core-2.7-M0.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/gt-xsd-filter-2.7-M0.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/gt-xsd-gml2-2.7-M0.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/gt-xsd-gml3-2.7-M0.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/gt-xsd-kml-2.7-M0.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/gt-xsd-ows-2.7-M0.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/gt-xsd-sld-2.7-M0.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/gt-xsd-wcs-2.7-M0.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/gt-xsd-wfs-2.7-M0.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/gt-xsd-wps-2.7-M0.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/h2-1.1.104.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/hatbox-1.0.b7.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/hsqldb-1.8.0.7.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/icu4j-3.4.4.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/imageio-ext-arcgrid-1.0.6-1.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/imageio-ext-customstreams-1.0.6-1.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/imageio-ext-gdal-bindings-1.4.5b.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/imageio-ext-gdalarcbinarygrid-1.0.6-1.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/imageio-ext-gdaldted-1.0.6-1.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/imageio-ext-gdalecw-1.0.6-1.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/imageio-ext-gdalecwjp2-1.0.6-1.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/imageio-ext-gdalehdr-1.0.6-1.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/imageio-ext-gdalenvihdr-1.0.6-1.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/imageio-ext-gdalerdasimg-1.0.6-1.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/imageio-ext-gdalframework-1.0.6-1.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/imageio-ext-gdalkakadujp2-1.0.6-1.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/imageio-ext-gdalmrsid-1.0.6-1.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/imageio-ext-gdalmrsidjp2-1.0.6-1.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/imageio-ext-gdalnitf-1.0.6-1.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/imageio-ext-geocore-1.0.6-1.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/imageio-ext-imagereadmt-1.0.6-1.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/imageio-ext-kakadu-1.0.6-1.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/imageio-ext-kakadujni-5.2.6.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/imageio-ext-tiff-1.0.6-1.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/imageio-ext-utilities-1.0.6-1.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/iri-0.8-sources.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/iri-0.8.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/jai_codec-1.1.3.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/jai_core.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/jai_imageio-1.1.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/jcommon-1.0.13.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/jdom-1.0.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/jena-2.6.3-sources.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/jena-2.6.3-test-sources.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/jena-2.6.3-tests.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/jena-2.6.3.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/jfreechart-1.0.10.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/json-simple-1.1.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/jsqlparser-0.3.14.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/jsr-275-1.0-beta-2.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/jts-1.11.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/junit-4.5.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/log4j-1.2.12.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/log4j-1.2.13.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/log4j-1.2.14.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/lucene-core-2.3.1.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/miglayout-3.7-swing.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/mysql-connector-java-5.1.4.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/mysql-connector-java-5.1.5.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/net.opengis.ows-2.7-M0.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/net.opengis.wcs-2.7-M0.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/net.opengis.wfs-2.7-M0.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/net.opengis.wfsv-2.7-M0.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/net.opengis.wps-2.7-M0.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/ojdbc6.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/orai18n.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/org.w3.xlink-2.7-M0.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/picocontainer-1.2.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/postgis-driver-1.0.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/postgresql-8.4-701.jdbc3.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/saxon9he.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/slf4j-api-1.5.8.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/slf4j-log4j12-1.5.8.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/sqlite-jdbc-3.6.19.1-SNAPSHOT.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/stax-api-1.0.1.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/tdb-0.8.7-tests.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/tdb-0.8.7.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/vecmath-1.3.2.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/wstx-asl-3.2.9.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/xalan-2.6.0.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/xercesImpl-2.7.1.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/xml-apis-1.3.04.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/xml-apis-ext-1.3.04.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/xml-apis-xerces-2.7.1.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/xmlgraphics-commons-1.2.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/xpp3-1.1.3.4.O.jar:/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/lib/xsd-2.2.2.jar
+[84546][environment]                           -sourcepath
+[84546][environment]                           /Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/src
+[84546][environment]                           -g -Xlint:unchecked -Xlint:deprecation
+[84546][environment]                           /Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/src/eu/geoknow/athenarc/triplegeo/Constants.java
+[84546][environment]                           /Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/src/eu/geoknow/athenarc/triplegeo/GmlToRdf.java
+[84546][environment]                           /Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/src/eu/geoknow/athenarc/triplegeo/InspireToRdf.java
+[84546][environment]                           /Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/src/eu/geoknow/athenarc/triplegeo/KmlToRdf.java
+[84546][environment]                           /Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/src/eu/geoknow/athenarc/triplegeo/MetadataToRdf.java
+[84546][environment]                           /Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/src/eu/geoknow/athenarc/triplegeo/ShpToRdf.java
+[84546][environment]                           /Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/src/eu/geoknow/athenarc/triplegeo/db/DB2DbConnector.java
+[84546][environment]                           /Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/src/eu/geoknow/athenarc/triplegeo/db/DbConnector.java
+[84546][environment]                           /Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/src/eu/geoknow/athenarc/triplegeo/db/DbConstants.java
+[84546][environment]                           /Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/src/eu/geoknow/athenarc/triplegeo/db/MsAccessDbConnector.java
+[84546][environment]                           /Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/src/eu/geoknow/athenarc/triplegeo/db/MySqlDbConnector.java
+[84546][environment]                           /Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/src/eu/geoknow/athenarc/triplegeo/db/OracleDbConnector.java
+[84546][environment]                           /Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/src/eu/geoknow/athenarc/triplegeo/db/PostgresqlDbConnector.java
+[84546][environment]                           /Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/src/eu/geoknow/athenarc/triplegeo/shape/ShpConnector.java
+[84546][environment]                           /Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/src/eu/geoknow/athenarc/triplegeo/shape/URLConstants.java
+[84546][environment]                           /Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/src/eu/geoknow/athenarc/triplegeo/utils/Configuration.java
+[84546][environment]                           /Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/src/eu/geoknow/athenarc/triplegeo/utils/UtilsConstants.java
+[84546][environment]                           /Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/src/eu/geoknow/athenarc/triplegeo/utils/UtilsLib.java
+[84546][environment]                           /Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/src/eu/geoknow/athenarc/triplegeo/wkt/RdbToRdf.java
+[84546][environment] Could not retrieve available memory (possibly not on Linux)
+[84546][environment] Active checkers: self-in-block (C/C++/ObjC), starvation (C/C++/ObjC, Java), uninit (C/C++/ObjC), siof (C/C++/ObjC), dotnet-resource-leak (C#/.Net), racerd (C/C++/ObjC, Java), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java), biabduction (C/C++/ObjC, Java, C#/.Net)
+[84546][      debug] Current working directory: '/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master'
+[84546][      debug] Trying to execute: javac '-J-Duser.language=en' '@/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/infer-out/tmp/javac_args.tmp.75094e' 2>'/Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/infer-out/tmp/javac.tmp.e64188.out'
+[84546][      debug] *** Success. Logs:
+[84546][      debug] Translating 19 source files (19 classes)
+[84546][      debug] done capturing all files
+[84546][      debug] GC stats for capture:
+[84546][      debug]   minor_words: 2.63073e+07
+[84546][      debug]   promoted_words: 3.27465e+06
+[84546][      debug]   major_words: 3.88312e+06
+[84546][      debug]   minor_collections: 50
+[84546][      debug]   major_collections: 7
+[84546][      debug]   compactions: 0
+[84546][      debug]   top_heap_words: 3545600
+[84546][      debug]   
+[84546][      debug] GC stats for main_process_full:
+[84546][      debug]   minor_words: 2.80339e+07
+[84546][      debug]   promoted_words: 3.43844e+06
+[84546][      debug]   major_words: 4.0713e+06
+[84546][      debug]   minor_collections: 60
+[84546][      debug]   major_collections: 10
+[84546][      debug]   compactions: 1
+[84546][      debug]   top_heap_words: 3545600
+[84546][      debug]   
+[84546][environment] Scheduler: file
+[84546][environment] Cores used: 2
+[84546][environment] [84487][      debug] GC stats for capture:
+[84487][      debug]   minor_words: 26357
+[84487][      debug]   promoted_words: 219758
+[84487][      debug]   major_words: 271422
+[84487][      debug]   minor_collections: 1
+[84487][      debug]   major_collections: 0
+[84487][      debug]   compactions: 0
+[84487][      debug]   top_heap_words: 1006592
+[84487][      debug]   
+[84487][environment] Parallel jobs: 2
+[84487][   progress] Found 19 source files to analyze in /Users/DavidKronish/dev/Uni/courses/ecse429/assignments/a1/assignment1-gstat-48/TripleGeo-master/infer-out
+[84553][   progress] src/eu/geoknow/athenarc/triplegeo/db/MySqlDbConnector.java starting
+[84554][   progress] src/eu/geoknow/athenarc/triplegeo/ShpToRdf.java starting
+[84553][   progress] src/eu/geoknow/athenarc/triplegeo/db/MySqlDbConnector.java DONE
+[84553][   progress] src/eu/geoknow/athenarc/triplegeo/KmlToRdf.java starting
+[84553][   progress] src/eu/geoknow/athenarc/triplegeo/KmlToRdf.java DONE
+[84553][   progress] src/eu/geoknow/athenarc/triplegeo/db/OracleDbConnector.java starting
+[84553][   progress] src/eu/geoknow/athenarc/triplegeo/db/OracleDbConnector.java DONE
+[84553][   progress] src/eu/geoknow/athenarc/triplegeo/MetadataToRdf.java starting
+[84553][   progress] src/eu/geoknow/athenarc/triplegeo/MetadataToRdf.java DONE
+[84553][   progress] src/eu/geoknow/athenarc/triplegeo/db/MsAccessDbConnector.java starting
+[84553][   progress] src/eu/geoknow/athenarc/triplegeo/db/MsAccessDbConnector.java DONE
+[84553][   progress] src/eu/geoknow/athenarc/triplegeo/utils/UtilsLib.java starting
+[84553][   progress] src/eu/geoknow/athenarc/triplegeo/utils/UtilsLib.java DONE
+[84553][   progress] src/eu/geoknow/athenarc/triplegeo/db/PostgresqlDbConnector.java starting
+[84553][   progress] src/eu/geoknow/athenarc/triplegeo/db/PostgresqlDbConnector.java DONE
+[84553][   progress] src/eu/geoknow/athenarc/triplegeo/shape/ShpConnector.java starting
+[84554][   progress] src/eu/geoknow/athenarc/triplegeo/ShpToRdf.java DONE
+[84554][   progress] src/eu/geoknow/athenarc/triplegeo/shape/URLConstants.java starting
+[84554][   progress] src/eu/geoknow/athenarc/triplegeo/shape/URLConstants.java DONE
+[84554][   progress] src/eu/geoknow/athenarc/triplegeo/Constants.java starting
+[84554][   progress] src/eu/geoknow/athenarc/triplegeo/Constants.java DONE
+[84554][   progress] src/eu/geoknow/athenarc/triplegeo/InspireToRdf.java starting
+[84553][   progress] src/eu/geoknow/athenarc/triplegeo/shape/ShpConnector.java DONE
+[84553][   progress] src/eu/geoknow/athenarc/triplegeo/utils/Configuration.java starting
+[84554][   progress] src/eu/geoknow/athenarc/triplegeo/InspireToRdf.java DONE
+[84554][   progress] src/eu/geoknow/athenarc/triplegeo/wkt/RdbToRdf.java starting
+[84553][   progress] src/eu/geoknow/athenarc/triplegeo/utils/Configuration.java DONE
+[84553][   progress] src/eu/geoknow/athenarc/triplegeo/db/DbConnector.java starting
+[84553][   progress] src/eu/geoknow/athenarc/triplegeo/db/DbConnector.java DONE
+[84553][   progress] src/eu/geoknow/athenarc/triplegeo/utils/UtilsConstants.java starting
+[84553][   progress] src/eu/geoknow/athenarc/triplegeo/utils/UtilsConstants.java DONE
+[84553][   progress] src/eu/geoknow/athenarc/triplegeo/db/DbConstants.java starting
+[84553][   progress] src/eu/geoknow/athenarc/triplegeo/db/DbConstants.java DONE
+[84553][   progress] src/eu/geoknow/athenarc/triplegeo/db/DB2DbConnector.java starting
+[84553][   progress] src/eu/geoknow/athenarc/triplegeo/db/DB2DbConnector.java DONE
+[84553][   progress] src/eu/geoknow/athenarc/triplegeo/GmlToRdf.java starting
+[84553][   progress] src/eu/geoknow/athenarc/triplegeo/GmlToRdf.java DONE
+[84554][   progress] src/eu/geoknow/athenarc/triplegeo/wkt/RdbToRdf.java DONE
+[84487][      debug] Backend stats:
+[84487][      debug]   summary_file_try_load= 4593
+[84487][      debug]   summary_read_from_disk= 30
+[84487][      debug]   summary_cache_hits= 2861 (38%)
+[84487][      debug]   summary_cache_misses= 4593
+[84487][      debug]   ondemand_procs_analyzed= 102
+[84487][      debug]   ondemand_local_cache_hits= 3319 (90%)
+[84487][      debug]   ondemand_local_cache_misses= 329
+[84487][      debug]   proc_locker_lock_time_user= 0.00000000
+[84487][      debug]   proc_locker_lock_time_sys= 0.00000000
+[84487][      debug]   proc_locker_lock_time_wall= 0.00000000
+[84487][      debug]   proc_locker_unlock_time_user= 0.00000000
+[84487][      debug]   proc_locker_unlock_time_sys= 0.00000000
+[84487][      debug]   proc_locker_unlock_time_wall= 0.00000000
+[84487][      debug]   restart_scheduler_useful_time_user= 0.00000000
+[84487][      debug]   restart_scheduler_useful_time_sys= 0.00000000
+[84487][      debug]   restart_scheduler_useful_time_wall= 0.00000000
+[84487][      debug]   restart_scheduler_total_time_user= 0.00000000
+[84487][      debug]   restart_scheduler_total_time_sys= 0.00000000
+[84487][      debug]   restart_scheduler_total_time_wall= 0.00000000
+[84487][      debug]   
+[84487][      debug] GC stats for backend_stats.gc_stats_add.:
+[84487][      debug]   minor_words: 1.69431e+09
+[84487][      debug]   promoted_words: 7.3526e+06
+[84487][      debug]   major_words: 9.07296e+06
+[84487][      debug]   minor_collections: 1625
+[84487][      debug]   major_collections: 25
+[84487][      debug]   compactions: 0
+[84487][      debug]   top_heap_words: 3788288
+[84487][      debug]   
+[84487][      debug] GC stats for backend_stats.gc_stats_max.:
+[84487][      debug]   minor_words: 1.21201e+09
+[84487][      debug]   promoted_words: 5.41663e+06
+[84487][      debug]   major_words: 6.46159e+06
+[84487][      debug]   minor_collections: 1162
+[84487][      debug]   major_collections: 16
+[84487][      debug]   compactions: 0
+[84487][      debug]   top_heap_words: 2026496
+[84487][      debug]   
+[84487][      debug] Average over 2 processes
+[84487][      debug] GC stats for backend_stats.gc_stats_average.:
+[84487][      debug]   minor_words: 8.47157e+08
+[84487][      debug]   promoted_words: 3.6763e+06
+[84487][      debug]   major_words: 4.53648e+06
+[84487][      debug]   minor_collections: 812
+[84487][      debug]   major_collections: 12
+[84487][      debug]   compactions: 0
+[84487][      debug]   top_heap_words: 1894144
+[84487][      debug]   
+[84487][      debug] Analysis phase finished in 2.787s
+[84487][      debug] backend_stats.scheduler_process_analysis_time_user= 0.03862600
+[84487][      debug] backend_stats.scheduler_process_analysis_time_sys= 0.02560600
+[84487][      debug] backend_stats.scheduler_process_analysis_time_wall= 2.78662123
+[84487][      debug] GC stats for analysis_scheduler:
+[84487][      debug]   minor_words: 4.12164e+06
+[84487][      debug]   promoted_words: 4302
+[84487][      debug]   major_words: 13008
+[84487][      debug]   minor_collections: 5
+[84487][      debug]   major_collections: 3
+[84487][      debug]   compactions: 1
+[84487][      debug]   top_heap_words: 1006592
+[84487][      debug]   
+[84487][      debug] GC stats for report:
+[84487][      debug]   minor_words: 176940
+[84487][      debug]   promoted_words: 0
+[84487][      debug]   major_words: 3280
+[84487][      debug]   minor_collections: 0
+[84487][      debug]   major_collections: 0
+[84487][      debug]   compactions: 0
+[84487][      debug]   top_heap_words: 1006592
+[84487][      debug]   
+[84487][      debug] GC stats for main_process_full:
+[84487][      debug]   minor_words: 6.15880e+06
+[84487][      debug]   promoted_words: 387116
+[84487][      debug]   major_words: 1.01528e+06
+[84487][      debug]   minor_collections: 16
+[84487][      debug]   major_collections: 6
+[84487][      debug]   compactions: 2
+[84487][      debug]   top_heap_words: 1006592
+[84487][      debug]   
+[84491][      debug] Sqlite write daemon: terminating
